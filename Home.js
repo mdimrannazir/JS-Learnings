@@ -10,9 +10,7 @@ console.log('num');
 // var age = prompt('What is your age?');
 // document.getElementById('someText').innerHTML = 'Your age is ' + age ;
 
-/* 
-    Numbers in JS   
-*/
+//                                              ++++++++++Numbers in JS+++++++++++++++
 
 var num1 = 10;
 
@@ -32,7 +30,7 @@ num1 += 10;
 console.log(num1);
 
 /* 
-    Functions in JS
+                                                     +++++++++++++++Functions in JS+++++++++++
     1. Create A Funtion
     2. Call the Funtion
 */
@@ -58,8 +56,8 @@ function greeting(yourName) {
     console.log(result);
     
 }
-var nameVariable = prompt('What is your name?');
-greeting(nameVariable);
+// var nameVariable = prompt('What is your name?');
+// greeting(nameVariable);
 
 //How do arguments work in Functions?
 //How do we add 2 numbers together in a funtion?
@@ -69,6 +67,14 @@ function sumNumbers(num1, num2) {
     console.log(result)
 }
 
-sumNumbers(10, 10);
+// sumNumbers(10, 10);
 
+//                                                   +++++++++++++Loops in JS++++++++++++++
+//While Loop
 
+var numberX = prompt('Write a number bellow 100');
+
+while (num<100) {
+    numberX += 1;
+    console.log(num);
+}
