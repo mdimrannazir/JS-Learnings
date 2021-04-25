@@ -87,3 +87,14 @@ for(var numberX =90; numberX<100; numberX++){
     console.log(numberX);
 }
  */
+
+
+//                                                  +++++++++++++ Data Types +++++++++++++++++
+
+let myAge = 22; //Number
+let myName = Imran; //String
+let name = {first: 'John', last: 'Clara'}; //Object
+let truth = false; //Boolean
+let groceries = ['apple', 'banana', 'orange']; //Array
+let random; //Undefined
+let nothing = null; //value null
