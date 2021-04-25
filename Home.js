@@ -92,9 +92,25 @@ for(var numberX =90; numberX<100; numberX++){
 //                                                  +++++++++++++ Data Types +++++++++++++++++
 
 let myAge = 22; //Number
-let myName = Imran; //String
+let myName = 'Imran'; //String
 let name = {first: 'John', last: 'Clara'}; //Object
 let truth = false; //Boolean
 let groceries = ['apple', 'banana', 'orange']; //Array
 let random; //Undefined
 let nothing = null; //value null
+
+//                                                   ++++++++ Strings in JS (Common Methods) +++++++++
+
+let fruit = 'bananaq,apple,orange';
+let moreFruits = 'banana\napple';
+
+console.log(fruit.length);
+console.log(fruit.indexOf('q'));
+console.log(fruit.slice(2, 6));
+console.log(fruit.replace('ban', '123'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(2));
+console.log(fruit[2]);
+console.log(fruit.split(',')); //Split by a comma
+console.log(fruit.split(''));  //Split by charecter
