@@ -70,11 +70,20 @@ function sumNumbers(num1, num2) {
 // sumNumbers(10, 10);
 
 //                                                   +++++++++++++Loops in JS++++++++++++++
+
+/* 
 //While Loop
+var number = prompt('Write a number');
 
-var numberX = prompt('Write a number bellow 100');
+while(number < 100) {
+    number++;
+    console.log(number);
+} 
 
-while (num<100) {
-    numberX += 1;
-    console.log(num);
+ */
+/* 
+// For Loop
+for(var numberX =90; numberX<100; numberX++){
+    console.log(numberX);
 }
+ */
